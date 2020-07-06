@@ -2713,6 +2713,8 @@ in
     typing-booster = callPackage ../tools/inputmethods/ibus-engines/ibus-typing-booster/wrapper.nix {
       typing-booster = ibus-engines.typing-booster-unwrapped;
     };
+
+	 bamboo = callPackage ../tools/inputmethods/ibus-engines/ibus-bamboo {};
   };
 
   ibus-with-plugins = callPackage ../tools/inputmethods/ibus/wrapper.nix { };

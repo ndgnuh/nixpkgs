@@ -9043,4 +9043,8 @@
     github = "saulecabrera";
     githubId = 1423601;
   };
+  ndgnuh = {
+    name = "Hung Nguyen";
+	 email = "ndgnuh@protonmail.com";
+  };
 }
